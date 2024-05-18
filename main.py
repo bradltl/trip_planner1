@@ -29,6 +29,14 @@ class TripCrew:
 
 
         # Custom tasks include agent name and variables as input
+        """plan_itinerary = tasks.plan_itinerary(
+            expert_travel_agent,
+            self.cities,
+            self.date_range,
+            self.interests
+        )
+        """
+
         plan_itinerary = tasks.plan_itinerary(
             expert_travel_agent,
             self.cities,
