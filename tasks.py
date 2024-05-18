@@ -107,8 +107,9 @@ class TravelTasks:
 
                     **Parameters**: 
                     - Cities: {city}
-                    - Interests: {interests}
                     - Travel Date: {travel_dates}
+                    - Interests: {interests}
+                    
 
                     **Note**: {self.__tip_section()}
         """
